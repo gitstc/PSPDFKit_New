@@ -20,6 +20,7 @@
 		1868027C1A824C6B008BC7FD /* PSPDFKit-Version in Resources */ = {isa = PBXBuildFile; fileRef = 186802741A824C6B008BC7FD /* PSPDFKit-Version */; };
 		1868027D1A824C6B008BC7FD /* PSPDFKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 186802751A824C6B008BC7FD /* PSPDFKit.bundle */; };
 		1868027E1A824C6B008BC7FD /* PSPDFKit.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 186802761A824C6B008BC7FD /* PSPDFKit.xcconfig */; };
+		186802811A8274E5008BC7FD /* AppDelegatePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 186802801A8274E5008BC7FD /* AppDelegatePlugin.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
@@ -96,6 +97,7 @@
 		186802741A824C6B008BC7FD /* PSPDFKit-Version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PSPDFKit-Version"; sourceTree = "<group>"; };
 		186802751A824C6B008BC7FD /* PSPDFKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PSPDFKit.bundle; sourceTree = "<group>"; };
 		186802761A824C6B008BC7FD /* PSPDFKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PSPDFKit.xcconfig; sourceTree = "<group>"; };
+		186802801A8274E5008BC7FD /* AppDelegatePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegatePlugin.m; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* PSPDFKit_New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSPDFKit_New.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,6 +343,7 @@
 			children = (
 				CFD83832860A42709B914C24 /* PSPDFKitPlugin.m */,
 				EC7719FF54804F7790DB63D2 /* PSPDFKitPlugin.h */,
+				186802801A8274E5008BC7FD /* AppDelegatePlugin.m */,
 			);
 			name = Plugins;
 			path = PSPDFKit_New/Plugins;
@@ -543,6 +546,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				E078886DAF3249E1800FD399 /* PSPDFKitPlugin.m in Sources */,
+				186802811A8274E5008BC7FD /* AppDelegatePlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
